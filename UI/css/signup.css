@@ -1,0 +1,115 @@
+body{
+
+	background-color: #f4f4f4;
+	position: fixed;
+}
+
+header{
+	background-color: #293819;
+	height: 60%;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	margin-right: 900px; 
+	border-bottom: 3px solid #0c0c0b;
+}
+header ul{
+	padding: 0px;
+	margin: 0px;
+}
+#logout{
+	float: right;
+	border-radius: 5px;
+	padding: 8px;
+	border: none;
+	background: #f44842;
+}
+#logout:hover{
+	background: #a01e18;
+
+}
+h1{
+	text-align: center;
+	color: #ffffff;
+}
+
+b{
+	font-size: 25px;
+	color: #a3702f;
+}
+.header .logout{
+	float: right;
+	margin: 20px 0px 7px;
+}
+.drawer{
+	height: 500px;
+	width: 20%;
+	background:  #293819;
+}
+.drawer ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+
+}
+.drawer ul li{
+	padding: 10px;
+	color: #ffffff;
+
+}
+form{
+	background: #FFFFFF;
+	margin: 20px 150px;
+}
+label{
+	font-size: 15px;
+	overflow: hidden;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+p a{
+	text-decoration: none;
+	color: #000000;
+}
+input{
+	margin: 20px;
+	width: 70%;
+	padding: 4px;
+	border-radius: 3px; 
+
+}
+button{
+	margin-top: 20px;
+	border-radius: 3px;
+	padding: 7px;
+	width: 80px;
+	background: #187c38;
+	border:none;
+	border-radius: 3px; 
+}
+button:hover{
+	background: #054f1c;
+}
+.signup{
+	margin: 100px 100px;
+	background: #ffffff;
+	height: 90%;
+}
+.label_wrapper{
+	margin-top: 10px;
+	display: block;
+}
+#cancel{
+	border-radius: 3px;
+	background: #ef0e07;
+	border: none; 
+	margin:20px 0px;
+	padding: 10px;
+	width: 80px; 
+}
+#cancel:hover{
+	background: #681d11;
+}
